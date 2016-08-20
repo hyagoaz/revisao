@@ -1,3 +1,14 @@
+
+/* =========================================================================
+	======
+	======	By: Hyago Azzolim  Aguirre 19/08/2016
+	======
+	======	calculo fatorial.c aluno de sistema de informaçao 2º semestre
+	======
+	======
+	========================================================================
+*/
+
 #include <stdio.h>
  
 int main()
@@ -8,7 +19,7 @@ scanf("%f", &n);
  
 for (fat=1;fat<n;fat++)
 {
-	resultado = fat * (n+1);
+	resultado = fat * (n+1);z
 	printf ("\npasso %f, resultado = %i", fat , resultado);
 	
 }
